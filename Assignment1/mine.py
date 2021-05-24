@@ -12,10 +12,10 @@ while True:
     res = hashlib.sha256(x.encode())
     res1 = res.hexdigest();
     #print(res1)
-    padding+=1
-    if res1.startswith('00000'):
+    if res1.startswith('0000'):
         print(f'congratulations possible padding is {padding} , lets become rich')
         break
+    padding+=1
 
 end = time.time()
 print(f' execution time : {end-start} seconds')
