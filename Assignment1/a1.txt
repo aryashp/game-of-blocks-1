@@ -1,0 +1,2 @@
+This assignment contains code for finding a padding to a string such that SHA256 of the (string + padding) results in a value less than 0x00000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+as well as gives time spent to find the value of padding if we try all paddings sequentially in increasing order starting from 0. python hashlib library is used to calculate SHA256. The code checks all possible paddings starting from 0 and keeps running until it hits a value which gives the desired result.
