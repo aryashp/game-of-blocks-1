@@ -1,11 +1,11 @@
 ## Instructions to test the contract
-* Open the [Remix IDE](https://remix.ethereum.org/) and create a new *.*sol* file. 
+* Open the [Remix IDE](https://remix.ethereum.org/) and create a new *.*sol* file. Lets refer to it as assignment2.sol from now on.
 
 * Copy and Paste the code present inside **loanContract.sol** to Remix IDE and compile the code. 
  
  #### Dry run for testing all the functions implemented inside the loan contract which inherits Metacoin smartcontract
  * On the left sidebar in Remix IDE, choose the option to Deploy the Smart Contract. 
- * Choose Loan-contracts/assignment2.sol in contracts option
+ * Choose Loan-contracts/asssignment2.sol in contracts option
  * Choose one account of your choice and deploy the contract (this will act as the owner account)
  * You can verify the initial balance of the Owner by calling **getOwnerBalance** function to be 100000
  * Now choose some other account , for now we will refer it as **creditor**.
